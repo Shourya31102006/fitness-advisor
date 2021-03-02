@@ -8,7 +8,7 @@ engine.setProperty('voice',voices[1].id)
 def speak(audio):
     engine.say(audio)
     engine.runAndWait()
-speak("thakaan ke liye Ek dabaaye")
+   
 speak("enter your username")
 x = input("enter your username : ")
 speak("enter your password")
